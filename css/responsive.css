@@ -2,69 +2,109 @@
 /* tablets */
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-	.top-header .navbar .navbar-collapse ul li a{
+	.top-header .navbar .navbar-collapse ul li a {
 		padding: 5px 15px;
 	}
-	.about-img{
+
+	.about-img {
 		margin-bottom: 30px;
 		margin-top: 30px;
 	}
-	.gallery-box ul li{
+
+	.gallery-box ul li {
 		width: 33.33%;
 	}
 }
 
 /* mobile or only mobile */
 @media (max-width: 767px) {
-	.navbar-brand{
+	.overflow1 {
+
+		top: 30% !important;
+		left: 50%;
+		transform: translate(-50%, -50%) !important;
+		z-index: 15;
+	}
+
+	.overflow1-details h1,
+	.overflow1-details h2 {
+		font-size: 15px !important;
+	}
+
+	.days,
+	.hours,
+	.minutes,
+	.seconds {
+		margin: 10px 0px !important;
+	}
+
+	.navbar-brand {
 		margin-left: 15px;
 	}
-	.top-header .navbar .navbar-collapse ul li a{
+
+	.top-header .navbar .navbar-collapse ul li a {
 		padding: 5px 15px;
 	}
-	.lbox-details h1{
+
+	.lbox-details h1 {
 		font-size: 24px;
 	}
-	.lbox-details h2{
+
+	.lbox-details h2 {
 		font-size: 18px;
 	}
-	.lbox-details p strong{
+
+	.lbox-details p strong {
 		font-size: 20px;
 	}
-	.lbox-details a.btn{
+
+	.lbox-details a.btn {
 		display: none;
 	}
-	.title-box h2{
+
+	.title-box h2 {
 		font-size: 28px;
 	}
-	.about-main-info h2{
+
+	.about-main-info h2 {
 		font-size: 24px;
 	}
-	.about-img{
+
+	.about-img {
 		margin-bottom: 30px;
 	}
-	.main-timeline-box .separline::before{
+
+	.main-timeline-box .separline::before {
 		left: 15px !important;
 	}
-	.main-timeline-box .iconBackground{
+
+	.main-timeline-box .iconBackground {
 		left: 15px !important;
 	}
-	.main-timeline-box .timeline-text-content{
+
+	.main-timeline-box .timeline-text-content {
 		margin-left: 0px;
 	}
-	.main-timeline-box .reverse .timeline-text-content{
+
+	.main-timeline-box .reverse .timeline-text-content {
 		margin-right: 0px;
 	}
-	.main-timeline-box .time-line-date-content{
+
+	.main-timeline-box .time-line-date-content {
 		margin-right: 0px;
 	}
-	.main-timeline-box .time-line-date-content p{
+
+	.main-timeline-box .time-line-date-content p {
 		float: left;
 	}
-	.main-timeline-box .timeline-element{
+
+	.main-timeline-box .timeline-element {
 		padding: 0px 15px;
 	}
-	.gallery-box ul li{
+
+	.gallery-box ul li {
 		width: 50%;
 	}
+
+
 }
