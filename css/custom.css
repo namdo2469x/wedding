@@ -1,0 +1,161 @@
+.overflow1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 15;
+}
+
+.overflow1-details {
+    text-align: center;
+}
+
+.overflow1-details h1,
+.overflow1-details h2 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.pogoSlider-nav {
+    display: none;
+}
+
+.cd__main {
+    background: pink !important;
+    font-family: 'Pacifico', cursive !important;
+    min-height: 450px;
+    z-index: 99px;
+}
+
+.heart {
+    position: fixed;
+    font-size: 1.5rem;
+    top: -1vh;
+    transform: translateY(0);
+    animation: fall 3s linear forwards;
+    z-index: 99px;
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(0vh) translateX(-10vw);
+    }
+
+    to {
+        transform: translateY(105vh) translateX(10vw);
+    }
+}
+
+/* Count down */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900');
+
+/* Font Families */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Colors */
+.red {
+    background: #EF2F3C;
+}
+
+.white {
+    background: #F6F4F3;
+}
+
+.blue {
+    background: #276FBF;
+}
+
+.dark {
+    background: #183059;
+}
+
+.yellow {
+    background: #F0A202;
+}
+
+/* Star Shape */
+
+.container1 {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+    padding: 100px;
+
+}
+
+.container1 h1 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #F6F4F3;
+}
+
+#timer {
+    color: #F6F4F3;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: .7em;
+    letter-spacing: 5px;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+    display: inline-block;
+    width: 130px;
+    padding: 20px;
+    margin: 0 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.days {
+    background-image: url('../images/bgCountDown.jpg');
+    background-size: contain;
+    background-position: center;
+    width: 170px;
+    height: 170px;
+    color: black;
+}
+
+.hours {
+    background-image: url('../images/bgCountDown.jpg');
+    background-size: contain;
+    background-position: center;
+    width: 170px;
+    height: 170px;
+    color: black;
+}
+
+.minutes {
+    background-image: url('../images/bgCountDown.jpg');
+    background-size: contain;
+    background-position: center;
+    width: 170px;
+    height: 170px;
+    color: black;
+}
+
+.seconds {
+    background-image: url('../images/bgCountDown.jpg');
+    background-size: contain;
+    background-position: center;
+    width: 170px;
+    height: 170px;
+    color: black;
+}
+
+.numbers {
+    font-family: 'Montserrat', sans-serif;
+    color: #183059;
+    font-size: 4em;
+}
