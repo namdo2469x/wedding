@@ -10,8 +10,15 @@
     text-align: center;
 }
 
+.about-img .img-fluid{
+    border: 10px solid #fff;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+
 .overflow1-details h1,
 .overflow1-details h2 {
+    font-family: 'Splash', cursive;
     color: #fff;
     font-size: 40px;
 }
@@ -158,4 +165,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #183059;
     font-size: 4em;
+}
+
+.scannerSection{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }

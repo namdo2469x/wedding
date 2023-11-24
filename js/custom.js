@@ -69,9 +69,8 @@
 				preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
 			},
 			image: {
-				tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
 				titleSrc: function (item) {
-					return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+					return item.el.attr('title') + '<small>by Đỗ Xuân Nam</small>';
 				}
 			}
 		});
@@ -114,16 +113,16 @@
 		// Display
 		document.getElementById("timer").innerHTML =
 			`<div class="days">
-      <div class="numbers">${days}</div>days
+      <div class="numbers">${days}</div>Ngày
     </div>
     <div class="hours">
-      <div class="numbers">${hours}</div>hours
+      <div class="numbers">${hours}</div>Giờ
     </div>
     <div class="minutes">
-      <div class="numbers">${minutes}</div>minutes
+      <div class="numbers">${minutes}</div>Phút
     </div>
     <div class="seconds">
-      <div class="numbers">${seconds}</div>seconds
+      <div class="numbers">${seconds}</div>Giây
     </div>`;
 
 	}, 1000);

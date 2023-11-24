@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Marck+Script');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -286,15 +290,16 @@ button:focus{
 	padding: 5px 10px;
     margin: 0px 5px;
 	font-size: 18px;
+	font-family: 'Noto Serif', serif;
 }
 
 .top-header .navbar .navbar-collapse ul li a.active{
-	background: #dd666c;
+	background: #dd666c79;
 	color: #ffffff;
 }
 
 .top-header .navbar .navbar-collapse ul li a:hover{
-	background: #63c7bd;
+	background: #63c7bd8f;
 	color: #ffffff;
 }
 
@@ -440,7 +445,7 @@ button:focus{
 }
 .title-box h2{
 	font-size: 60px;
-	font-family: 'Marck Script', cursive;
+	font-family: 'Bonheur Royale', cursive;
 	color: #222222;
 }
 .title-box h2 span{
@@ -449,7 +454,7 @@ button:focus{
 }
 .about-main-info h2{
 	font-size: 40px;
-	font-family: 'Marck Script', cursive;
+	font-family: 'Bonheur Royale', cursive;
 }
 .about-main-info h2 span{
 	color: #dd666c;
@@ -625,7 +630,7 @@ button:focus{
 .gallery-box ul li a::before{
 	content: "";
 	position: absolute;
-	background: rgba(99, 199, 189, 0.5);
+	background: rgba(255, 255, 255, 0.246);
 	width: 100%;
 	height: 100%;
 	left: 0px;
@@ -638,7 +643,8 @@ button:focus{
 	-moz-transition: all 0.3s ease-in-out;
 }
 .gallery-box ul li a .overlay{
-	background: #dd666c;
+	background: #ffb1b561;
+	border-radius: 50%;
 	color: #ffffff;
 	font-size: 22px;
 	text-align: center;
@@ -673,15 +679,21 @@ button:focus{
 }
 .event-inner{
 	margin-bottom: 30px;
+	margin: 0px 30px 30px 30px;
 	border: 10px solid #fff;
 	box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+
+.event-inner h2{
+	font-family: 'Noto Serif', serif;
 }
 .event-img{
 	margin-bottom: 15px;
 }
 
 .event-inner a{
-	background: #dd666c;
+	background: #dd666c79;
+	font-family: 'Noto Serif', serif;
 	color: #ffffff;
 	padding: 5px 10px;
 	display: inline-block;
@@ -689,7 +701,7 @@ button:focus{
 	font-weight: 500;
 }
 .event-inner a:hover{
-	background: #63c7bd;
+	background: #63c7bd8f;
 }
 
 /*------------------------------------------------------------------
@@ -769,6 +781,7 @@ select.form-control:not([size]):not([multiple]){
 	text-align: center;
 	margin: 0px;
 	color: #ffffff;
+	font-family: 'Noto Serif', serif;
 }
 
 .footer-box .footer-company-name a{
