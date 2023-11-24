@@ -10,10 +10,10 @@
     text-align: center;
 }
 
-.about-img .img-fluid{
+.about-img .img-fluid {
     border: 10px solid #fff;
     border-radius: 8px !important;
-    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
 }
 
 .overflow1-details h1,
@@ -167,9 +167,18 @@ body {
     font-size: 4em;
 }
 
-.scannerSection{
+.scannerSection {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 20px;
+}
+
+.contact-box .event-inner {
+
+    margin-bottom: 30px;
+    margin: 0px 80px 30px 80px;
+    border: 10px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+
 }
